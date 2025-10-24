@@ -22,8 +22,7 @@ Este projeto é um **Sistema CRUD** desenvolvido em **Java com Spring Boot**, ut
 
 ### 1️⃣ Clonar o Repositório
 ```bash
-git clone https://github.com/seu-usuario/crud-mockito.git
-cd crud-mockito
+  git clone https://github.com/DenielCarlson/testes_unitarios_atividade
 
 2️⃣ Compilar e Executar
 
@@ -104,7 +103,7 @@ DELETE http://localhost:8080/produtos/1
 
 Os testes automatizados estão localizados em:
 
-src/test/java/com/exemplo/crudmockito/service/ProdutoServiceTest.java
+src/test/java/com/facul/JUnitAtividade/service/ProdutoServiceTest.java
 
 🧰 Executar os testes
 
@@ -125,18 +124,3 @@ nome	String	Nome do produto
 descricao	String	Descrição do produto
 preco	Double	Preço unitário
 estoque	Integer	Quantidade disponível em estoque
-💡 Autor
-
-Seu Nome
-📧 seuemail@exemplo.com
-
-📁 GitHub
-📝 Licença
-
-Este projeto é de uso acadêmico e pode ser utilizado para fins educacionais.
-
-
----
-
-Quer que eu adicione também uma **seção de instalação via Docker** no final (com `Dockerfile` e `docker-compose.yml` prontos)?
-
